@@ -32,12 +32,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 >Clone the app by running this command
 
 ```md 
-git clone https://github.com/fobadara/fabulous-vet-clinic
+git clone https://github.com/fobadara/clinic-database
 ```
 >Navigate into the directory with
 
 ```md
-cd fabulous_vet_clinic
+cd clinic-database
 ```
 >To open user
 
