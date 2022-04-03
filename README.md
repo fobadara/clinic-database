@@ -1,20 +1,20 @@
 ### clinic-database
 
-- [Description](#description)
-- [Getting Started](#getting-started)
+- [Description 🏗️](#description-️)
+- [Getting Started 🏁](#getting-started-)
   - [Installation](#installation)
   - [Usage](#usage)
-- [Authors](#authors)
-- [Contributing](#contributing)
-- [Show your support](#show-your-support)
+- [Authors ✍️](#authors-️)
+- [Contributing 🤝](#contributing-)
+- [Show your support 💪](#show-your-support-)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
+- [License 📝](#license-)
 
-## Description 
-🏗️ This is a clinic relational database that contains tables for patients, medical history, invoice, treatments and invoice items. 
+## Description 🏗️ 
 
-## Getting Started 
-🏁
+This is a clinic relational database that contains tables for patients, medical history, invoice, treatments and invoice items. 
+
+## Getting Started 🏁
 
 ### Installation
 
@@ -70,9 +70,7 @@ $  \c vet_clinic
 |-|-------------|-|
 ||![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)   ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)  ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)||
 
-## Authors 
-
-✍️
+## Authors ✍️
 
 | 👤 Abdulfatai Badara  |
 |---|
@@ -80,13 +78,13 @@ $  \c vet_clinic
 <a target="_blank" href="mailto:fob90s@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail account"></a> <a target="_blank" href="https://wa.me/+2349066478370"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp account"></a> (Click to reach me)|
 
 
-## Contributing
-🤝 Contributions, issues, and feature requests are welcome!
+## Contributing 🤝 
+
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-## Show your support 
-💪 
+## Show your support 💪 
 
 Give a ⭐️ if you like this project!
 
@@ -94,6 +92,6 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 
-## License
-📝
+## License 📝
+
 This project is licensed by [MIT](LICENSE) -->
