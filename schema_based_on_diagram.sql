@@ -10,10 +10,8 @@ CREATE TABLE medical_histories (
   id INT PRIMARY KEY,
   admitted_at timestamp NOT NULL,
   patient_id INT NOT NULL,
-  treatments_id INT NOT NULL,
   status VARCHAR(255) NOT NULL,
   FOREIGN KEY (patient_id) REFERENCES patients(id)
-  FOREIGN KEY (treatments_id) REFERENCES treatments(id)
 );
 
 -- Create incoices table
@@ -31,8 +29,6 @@ CREATE TABLE treatments (
   id INT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   type VARCHAR(255) NOT NULL,
-  medical_history_id INT NOT NULL,
-  FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
 );
 
 -- Create invoice_items table
@@ -44,5 +40,14 @@ CREATE TABLE invoice_items (
   invoice_id INT NOT NULL,
   treatment_id INT NOT NULL,
   FOREIGN KEY (invoice_id) REFERENCES invoices(id),
+  FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+);
+
+-- Create join table for medical_histories_and_treatments
+CREATE TABLE medical_histories_and_treatments (
+  id INT PRIMARY KEY,
+  medical_history_id INT NOT NULL,
+  treatment_id INT NOT NULL,
+  FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
   FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 );
